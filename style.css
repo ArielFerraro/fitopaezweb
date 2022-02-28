@@ -48,7 +48,7 @@ footer {
 .titulo {
     display: flex;
     justify-content: center;
-    background-color:mediumpurple;
+    background-image: linear-gradient(to left, rgb(195, 0, 255), rgb(255, 255, 255)) ;
     align-items: flex-end;
 
 }
@@ -58,6 +58,7 @@ footer {
     padding-right: 0%;
     justify-content: flex-end;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .imagen2 {
@@ -69,6 +70,11 @@ footer {
     display: flex;
     justify-content: center;
     margin-left: 2.5rem;
+    padding: .3125rem;
+    background-image: repeating-linear-gradient(to right,rgb(53, 144, 248),rgb(248, 241, 241));
+}
+.texto__introduccion {
+    background-image: repeating-linear-gradient(to left,rgb(53, 144, 248),rgb(248, 241, 241));
 }
 
 .grid__contenedor {
@@ -96,7 +102,7 @@ footer {
 @media screen and (min-width: 1100px) {
         .grid__contenedor {
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 3.125rem 9.375rem 31.25rem 25rem 3.125rem;
+        grid-template-rows: 3.125rem 9.375rem 34.375rem 25rem 3.125rem;
         justify-content: center;
     }
 
