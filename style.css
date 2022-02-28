@@ -48,7 +48,7 @@ footer {
 .titulo {
     display: flex;
     justify-content: center;
-    background-color:mediumpurple;
+    background-image: linear-gradient(to left, rgb(195, 0, 255), rgb(255, 255, 255)) ;
     align-items: flex-end;
 
 }
@@ -69,6 +69,9 @@ footer {
     display: flex;
     justify-content: center;
     margin-left: 2.5rem;
+}
+.texto__introduccion {
+    background-image: repeating-linear-gradient(to right,rgb(53, 144, 248),rgb(248, 241, 241));
 }
 
 .grid__contenedor {
